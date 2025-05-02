@@ -16,21 +16,7 @@ This project compares the performance and accuracy of simple linear regression u
 ---
 
 ## 🗂️ Project Structure
-anscombe-regression/
-├── go/
-│ ├── main.go
-│ ├── linear.go
-│ ├── linear_test.go
-│ ├── benchmark_test.go
-│ ├── anscombe.csv
-│ └── go.mod
-├── python/
-│ └── anscombe_regression.py
-├── r/
-│ └── anscombe_regression.R
-├── img/
-│ └── miller-fig-anscombe-from-R.png
-└── README.md
+![Structure](img/struct.png)s
 
 # How to Run
 
@@ -46,7 +32,7 @@ go test -bench=. -benchmem
 
 ## Python
 
-cd python
+cd python<br>
 python3 miller-mtpa-chapter-1-program.py
 
 ### Eample and Result
@@ -54,7 +40,7 @@ python3 miller-mtpa-chapter-1-program.py
 
 ## R
 
-cd r
+cd r<br>
 Rscript miller-mtpa-chapter-1-program.R
 
 ### Eample and Result
