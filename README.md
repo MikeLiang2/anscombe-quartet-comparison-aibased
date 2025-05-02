@@ -39,19 +39,24 @@ cd go
 go run .
 go test -v
 go test -bench=. -benchmem
+
 ### Eample and Result
 ![Go Output](img/go_res.png)
 ![Go Output](img/go_bench.png)
 
 ## Python
+
 cd python
-python3 Rscript miller-mtpa-chapter-1-program.py
+python3 miller-mtpa-chapter-1-program.py
+
 ### Eample and Result
 ![Python Output](img/py_res.png)
 
 ## R
+
 cd r
-Rscript Rscript miller-mtpa-chapter-1-program.R
+Rscript miller-mtpa-chapter-1-program.R
+
 ### Eample and Result
 ![R Output](img/r_res.png)
 
