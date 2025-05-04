@@ -1,12 +1,14 @@
+[Click here to view the ChatGPT dialog (PDF)](pdf/conversation.pdf)
+
 # Anscombe Quartet Linear Regression Benchmark
 
-## 📊 Overview
+## Overview
 
 This project compares the performance and accuracy of simple linear regression using **Go**, **Python**, and **R** on the [Anscombe Quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet). The goal is to evaluate whether a Go statistics package (specifically, [`montanaflynn/stats`](https://github.com/montanaflynn/stats)) can produce regression results comparable to those from Python and R — and to benchmark their respective runtime and memory usage.
 
 ---
 
-## 🧪 Objective
+## Objective
 
 - Validate correctness of slope and intercept from Go regression
 - Compare regression results from Go, Python, and R
@@ -15,7 +17,7 @@ This project compares the performance and accuracy of simple linear regression u
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 ![Structure](img/struct.png)s
 
 # How to Run
@@ -93,7 +95,7 @@ ChatGPT has some ability to debugging. For example, one problem I faced during t
 ![GPT 8](img/1.1.png)
 
 It is obvious that the AI noticed the problem. The reply includes many fixing options, such as:
-![GPT 9](img/1.3png)
+![GPT 9](img/1.3.png)
 And we can fix the code and pass the test easily by replcing the entire testing block.
 ![GPT 10](img/1.4.png)
 
@@ -120,7 +122,7 @@ Recall that when an error occurs in the program that affects its operation, the 
 ![Cop 3](img/fix_usingcop2.png)
 
 In the current version os VScode, Copilot can be used to fix some of those problems. The prompt will be generated automatically after we click 'quick fix' and the Copilot will fix the bug for us.
-![Cop 4](img/fix_usingco1.png)
+![Cop 4](img/fix_usingcop1.png)
 
 
 ## Summary and Recommendation
