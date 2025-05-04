@@ -87,9 +87,11 @@ As well as the code for the files listed in the previous directory structure:
 ![GPT 5](img/g.5.png)
 
 However, AI is not perfect. In my cases, we didn't get the main.go file. We can simply fixing this by telling the AI to add the file, or guide the AI to inspect whether a file is required:
+[`main.go`](go/main.go)
 ![GPT 6](img/g.6f.png)
 
 ## AI-assisted programming - Debugging
+[`linear_test.go`](go/linear_test.go)
 ChatGPT has some ability to debugging. For example, one problem I faced during testing was the AI failed to put the entire dataset to calcuate the slope and the intercept. This leads a mismatch of the expected result and the actual result. Assume we didn't notice this problem and provide the testing output to ChatGPT:
 ![GPT 7](img/1.png)
 ![GPT 8](img/1.1.png)
@@ -100,6 +102,7 @@ And we can fix the code and pass the test easily by replcing the entire testing 
 ![GPT 10](img/1.4.png)
 
 ## AI-assisted programming - Code Revising
+[`main.go`](go/main.go)
 ChatGPT can also assist us to revising the code. For instance, the previou version of code didn't show the memory usage of running the regression. We can telling the AI to modify the code from the previous section:
 ![GPT 11](img/3.1.png)
 
@@ -114,6 +117,7 @@ ChatGPT support multiple languages. You can also asking questions with another l
 
 ## Automated code generation && AI-assisted programming using Copilot
 Copilot is another tool used in this assignment. This tool has been integrated into the compiler, allowing users to interact naturally with it for coding or debugging. In this project, I used Copliot to generate another version of the LinearRegression function. In the chat box on the right of VSCode, we can directly type our prompts. The result includes the entire function with a specific explanation:
+[`linear_cop.go`](go/linear_cop.go)
 ![Cop 1](img/cop1.png)
 ![Cop 2](img/cop2.png)
 
